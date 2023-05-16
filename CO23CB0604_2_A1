@@ -1,0 +1,13 @@
+play = True
+counter = 5
+print("My favourite songs: ")
+while play:
+    print("1. SONG_1");
+    print("2. SONG_2");
+    print("3. SONG_3");
+    print("4. SONG_4");
+    print("5. SONG_5");
+    print(" ")
+    counter -= 1
+    if(counter == 0):
+  	Play=False
