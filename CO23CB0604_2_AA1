@@ -1,0 +1,23 @@
+balance =1000;
+option = True
+while(option):
+    print("Welcome")
+    print("Press 1 for balance enquiry ")
+    print("Press 2 for withdrawal ")
+    print("Press 3 for deposit")
+    print("Press 4 to exit")
+    action = input("enter your choice")
+    if(action == '1'):
+        print("Your account balance is : Rs",balance )
+    elif(action == '2'):
+        print("balance: ", balance)
+        amt = int(input("enter amount"))
+        balance = balance - amt
+        print("remaining balance is :", balance)
+    elif(action == '3' ):
+        print("balance: ", balance)
+        amt = int(input("enter amount"))
+        balance = balance + amt
+        print("total balance is :", balance)
+    elif(action == '4'):
+        option = False
